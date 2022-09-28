@@ -1,0 +1,153 @@
+body {
+    font-size: 18px;
+    margin: 0 0;
+    background-color: #EB2E64;
+    padding: 70px;
+  }
+  header div {
+    width: 33%;
+    display: inline-block;
+  }
+  .header-right p{
+    display: inline-block;
+    width: 14%;
+  }
+  .header-right, .palmas{
+    text-align: end;
+  }
+  header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+  }
+  input#gsearch {
+    width: 100%;
+    padding: 15px;
+    border-radius: 30px;
+    background: whitesmoke;
+    border: 1px solid whitesmoke;
+  }
+  .header-right img{
+    width: 50%;
+  }
+  .sidebar {
+    width: 10%;
+    display: inline-block;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    position: relative;
+    padding: 30px 0;
+  }
+  .sidebar p {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+  }
+  .sidebar ul, .votes ul, h1 {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+  }
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  .sidebar ul li {
+    margin-bottom: 20px;
+    padding-left: 51px;
+  }
+  .main-content{
+    width: 90%;
+    display: inline-block;
+  }
+  .full, .luck, .lorem{
+    display: flex;
+  }
+  .full-img{
+    width: 100%;
+  }
+  li.hotel {
+    background: #EB2E64;
+    padding: 10px;
+  }
+  .votes h2, .palmas {
+    width: 49%;
+    display: inline-block;
+  margin-left: 13px;
+  
+  }
+  .palmas ul li {
+    width: 15%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .vote-num{
+    background: #EB2E64;
+    text-align: center;
+    padding: 10px 0;
+    margin-right: -2px;
+  }
+  .votes{
+    margin-top: -6px;
+    background-color: white;
+  }
+  .lorem {
+    background-color: whitesmoke;
+    padding: 61px 45px;
+  }
+  .box-1{
+    width: 60%;
+    display: inline-block;
+    background-color: white;
+  padding: 50px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  .box-1 ul{
+    list-style-type: none;
+    width: 40%;
+    display: inline-block;
+    padding: 0;
+  }
+  
+  .luck p{
+    width: 80%;
+    display: inline-block;
+  }
+  .luck img{
+    width: 19%;
+    display: inline-block;
+  }
+  .all-boxes {
+    width: 30%;
+    display: inline-block;
+    padding: 0 0 0 70px;
+  }
+  .box-2 {
+    background: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 15px;
+  max-width: 300px;
+  
+  }
+  .box-2 ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+  }
+  .box-2-1{
+  margin-top: 8px;
+  }
+  button.btn {
+    padding: 20px;
+    width: 100%;
+    border-radius: 50px;
+    background: #EB2E64;
+    color: white;
+    border: 0;
+    font-size: 20px;
+  }
+  .good-news{
+    width: 10%;
+  }
